@@ -1,18 +1,21 @@
-/* Allgemeine Styles */
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    background-color: black;
+    color: white;
   }
   
   h1, h2 {
     text-align: center;
+    color: white;
   }
   
-  /* Hero-Bereich */
+  /* Hero Section */
   .hero {
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    background: linear-gradient(135deg, #191970, #000080);
     color: white;
     text-align: center;
     padding: 50px 20px;
@@ -23,7 +26,7 @@ body {
     margin-top: 20px;
     padding: 10px 20px;
     background: white;
-    color: #2575fc;
+    color: #191970;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
@@ -35,7 +38,7 @@ body {
     background: #e6e6e6;
   }
   
-  /* Über Mich */
+  /* About Section */
   .about {
     display: flex;
     align-items: center;
@@ -49,18 +52,20 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 5px solid #2575fc;
+    border: 5px solid #191970;
   }
   
   .about div {
     max-width: 600px;
+    color: white;
   }
   
   /* Footer */
   footer {
     text-align: center;
     padding: 10px;
-    background: #f4f4f4;
+    background: #111;
+    color: white;
     font-size: 0.9em;
   }
   
