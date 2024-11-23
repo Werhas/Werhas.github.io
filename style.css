@@ -15,7 +15,7 @@ body {
   
   /* Hero Section */
   .hero {
-    background: linear-gradient(135deg, #191970, #000080);
+    background: linear-gradient(135deg, #010114, #00000e);
     color: white;
     text-align: center;
     padding: 50px 20px;
@@ -52,7 +52,7 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 5px solid #191970;
+    border: 5px solid #010112;
   }
   
   .about div {
@@ -64,7 +64,7 @@ body {
   footer {
     text-align: center;
     padding: 10px;
-    background: #111;
+    background: #070707;
     color: white;
     font-size: 0.9em;
   }
