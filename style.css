@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: black;
+    background-color: #121212;
     color: white;
   }
   
@@ -15,7 +15,7 @@ body {
   
   /* Hero Section */
   .hero {
-    background: linear-gradient(135deg, #010114, #00000e);
+    background: linear-gradient(135deg, #121212, #121212);
     color: white;
     text-align: center;
     padding: 50px 20px;
@@ -25,8 +25,8 @@ body {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    background: white;
-    color: #191970;
+    background: #000016;
+    color: white;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
@@ -52,7 +52,7 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 5px solid #010112;
+    border: 5px solid #121212;
   }
   
   .about div {
@@ -64,7 +64,7 @@ body {
   footer {
     text-align: center;
     padding: 10px;
-    background: #070707;
+    background: #121212;
     color: white;
     font-size: 0.9em;
   }
