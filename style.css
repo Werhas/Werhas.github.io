@@ -1,0 +1,66 @@
+/* Allgemeine Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  /* Hero-Bereich */
+  .hero {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .hero .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: white;
+    color: #2575fc;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .hero .btn:hover {
+    transform: scale(1.1);
+    background: #e6e6e6;
+  }
+  
+  /* Über Mich */
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #2575fc;
+  }
+  
+  .about div {
+    max-width: 600px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background: #f4f4f4;
+    font-size: 0.9em;
+  }
+  
